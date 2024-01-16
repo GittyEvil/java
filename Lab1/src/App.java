@@ -2,6 +2,7 @@ import java.util.Scanner;
 import java.lang.Math;
 import java.util.Random;
 
+package App;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -61,25 +62,29 @@ public class App {
 
         //Uppgift 4
 
-        int tärning1[];
-        int tärning2[];
-
-        int size = 100;
-        int summa = 0;
-        int tärning1Summa = 0;
-        int tärning2Summa = 0;
-
-        tärning1 = new int[size];
-        tärning2 = new int[size];
+        /*int size = 100;
+        int[] arr = new int[12];
 
         Random rand = new Random();
 
         for(int i = 0; i < size; i++) {
             //tärning 1
-            //tärning1 = rand.nextInt(1,7);
+            int tärning1 = rand.nextInt(6) + 1;
             //tärning 2
-            //tärning2 = rand.nextInt(1,7);
+            int tärning2 = rand.nextInt(6) + 1;
+            int summa = tärning1 + tärning2;
+
+            arr[summa-2]++;
         }
+
+
+        for(int j = 0; j < arr.length;j++) {
+            System.out.println((arr[j])+ " gånger blev tärningssumman " + j);
+        } */
+
+
+        //Uppgift 5
+
 
 
         
