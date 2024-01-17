@@ -19,11 +19,11 @@ public class Circle {
     }
 
     public double Area(double radius) {
-        return Math.PI * radius * radius;
+        return Math.PI *(Math.pow(radius,2));
     }
 
     public double perimeter(double radius) {
-        return Math.PI *(radius *2);
+        return 2* Math.PI *radius; 
     }
 
 }
