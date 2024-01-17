@@ -2,11 +2,11 @@ import java.util.Scanner;
 import java.lang.Math;
 import java.util.Random;
 
-package App;
 
 public class App {
     public static void main(String[] args) throws Exception {
         
+        Circle circle = new Circle(0);
         Scanner scanner = new Scanner(System.in);
 
         //Uppgift 1
@@ -84,9 +84,10 @@ public class App {
 
 
         //Uppgift 5
-
-
-
+        System.out.println("skriv en radie du vill använda");
+        int radius = scanner.nextInt();
+        System.out.println(circle.Area(radius));
+        System.out.println(circle.perimeter(radius));
         
         
     }
